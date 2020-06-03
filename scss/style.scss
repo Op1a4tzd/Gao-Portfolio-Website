@@ -1,1 +1,15 @@
 @import 'vars';
+
+body{
+    margin: 0px;
+}
+
+.junshen{
+    display: flex;
+    background-color: #ffff00;
+    height: 100vh;
+    justify-content: center;
+    .name{
+        max-width: 80vw;
+    }
+}
